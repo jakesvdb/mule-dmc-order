@@ -1,0 +1,146 @@
+<DeliveryOutput>
+  <RequestInfo>
+    <Timestamp>11/12/2021 8:59:24 PM</Timestamp>
+  </RequestInfo>
+  <Files PackageFileName="06b0ce3b-22e7-402e-8b4f-73f556728bcc">
+    <FileInfo>
+      <FileName>HTML_A.pdf</FileName>
+      <RequestId>6db7e029-9b23-4eb2-92fc-49c4807496b0</RequestId>
+      <ContentInfo>
+        <Id>e9db519f-faba-4024-ad09-08ea3341b5ec</Id>
+        <Name>HTML_A</Name>
+        <IsCollaborationContent>False</IsCollaborationContent>
+        <CollaborationContentId>bbc27301-c4c5-4f9b-81c1-0f066b2bf4ce</CollaborationContentId>
+        <ContentProperties>
+          <CustomProperty Name="Order Code" PropertyType="string">HTML_A</CustomProperty>
+        </ContentProperties>
+      </ContentInfo>
+    </FileInfo>
+    <FileInfo>
+      <FileName>RICH_A.docx</FileName>
+      <RequestId>6db7e029-9b23-4eb2-92fc-49c4807496b0</RequestId>
+      <ContentInfo>
+        <Id>5ef2898f-18a1-4fa1-a510-791fc8ff33f2</Id>
+        <Name>RICH_A</Name>
+        <IsCollaborationContent>False</IsCollaborationContent>
+        <CollaborationContentId>bbc27301-c4c5-4f9b-81c1-0f066b2bf4ce</CollaborationContentId>
+        <ContentProperties>
+          <CustomProperty Name="Order Code" PropertyType="string">RICH_A</CustomProperty>
+        </ContentProperties>
+      </ContentInfo>
+    </FileInfo>
+  </Files>
+  <DeliveryOption Id="2257375e-cc6b-41fc-97ee-d8c22e30707f" Name="Print Blast">
+    <DeliveryFields>
+      <Field Name="Documents" Type="Table">
+        <TableColumns>
+          <DeliveryFieldTableColumnInfo Id="91575e6a-dca5-8992-d66d-158f3d4187bb" Name="Name" ValueType="String" Value="ContentList.Name" IsBuildIn="true">
+            <RowInfo ContentId="e9db519f-faba-4024-ad09-08ea3341b5ec">HTML_A</RowInfo>
+            <RowInfo ContentId="5ef2898f-18a1-4fa1-a510-791fc8ff33f2">RICH_A</RowInfo>
+          </DeliveryFieldTableColumnInfo>
+          <DeliveryFieldTableColumnInfo Id="e21af823-ec05-2dbd-dab0-fc1d9c64840f" Name="Quantity" ValueType="Integer" Value="(Manual Input)" IsBuildIn="false">
+            <RowInfo ContentId="e9db519f-faba-4024-ad09-08ea3341b5ec">5</RowInfo>
+            <RowInfo ContentId="5ef2898f-18a1-4fa1-a510-791fc8ff33f2">10</RowInfo>
+          </DeliveryFieldTableColumnInfo>
+          <DeliveryFieldTableColumnInfo Id="059b8d8c-17ba-63b9-fdd6-b444b03fcd5f" Name="SpecialInstructions" ValueType="String" Value="(Manual Input)" IsBuildIn="false">
+            <RowInfo ContentId="e9db519f-faba-4024-ad09-08ea3341b5ec">special1</RowInfo>
+            <RowInfo ContentId="5ef2898f-18a1-4fa1-a510-791fc8ff33f2">special2</RowInfo>
+          </DeliveryFieldTableColumnInfo>
+          <DeliveryFieldTableColumnInfo Id="4d216eea-24f9-82e8-5b1b-22c8efed5a32" Name="ConstructionState" ValueType="String" Value="(Manual Input)" IsBuildIn="false">
+            <RowInfo ContentId="e9db519f-faba-4024-ad09-08ea3341b5ec">NC</RowInfo>
+            <RowInfo ContentId="5ef2898f-18a1-4fa1-a510-791fc8ff33f2">SC</RowInfo>
+          </DeliveryFieldTableColumnInfo>
+        </TableColumns>
+      </Field>
+      <Field Name="UserSalesforceId" Value="00540000002efozAAA" Type="String" />
+      <Field Name="UserFirstName" Value="FirstK" Type="String" />
+      <Field Name="UserLastName" Value="LastG" Type="String" />
+      <Field Name="UserEmail" Value="test3@email.com" Type="String" />
+      <Field Name="UserPhone" Value="(617) 555-5555" Type="String" />
+      <Field Name="UserDSU" Value="000511" Type="String" />
+      <Field Name="ShipMethod" Value="FEDEX_GROUND" Type="String" />
+      <Field Name="ShippingDSU" Value="000511" Type="String" />
+      <Field Name="DefaultShippingDSU" Value="004710" Type="String" />
+      <Field Name="ShippingLabel" Value="0000000" Type="String" />
+      <Field Name="RecipientType" Value="Salesforce" Type="String" />
+      <Field Name="ManualFirstName" Value="F" Type="String" />
+      <Field Name="ManualLastName" Value="L" Type="String" />
+      <Field Name="ManualCompanyName" Value="C" Type="String" />
+      <Field Name="ManualMailAddress1" Value="A1" Type="String" />
+      <Field Name="ManualMailAddress2" Value="A2" Type="String" />
+      <Field Name="ManualMailCity" Value="C" Type="String" />
+      <Field Name="ManualMailState" Value="NC" Type="String" />
+      <Field Name="ManualMailPostalCode" Value="27215" Type="String" />
+      <Field Name="ManualEmail" Value="manual@email.com" Type="String" />
+      <Field Name="MailDate" Value="12/31/2060 12:00:00 AM" Type="DateTime" />
+	  <Field Name="ManualPhoneNumber" Value="(617) 555-5555" Type="Integer" />
+    </DeliveryFields>
+  </DeliveryOption>
+  <DeliveryDetailExtra validation.json="6db7e029-9b23-4eb2-92fc-49c4807496b0_printblast_validation" />
+<DeliveryApproval>
+  <Global>
+    <Status>approve</Status>
+    <Message/>
+  </Global>
+  <Recipients>
+    <Id>933fba40-9c45-450b-ad78-7dbc022dec11</Id>
+    <Name>Jane Doe</Name>
+    <FirstName>Jane</FirstName>
+    <LastName>Doe</LastName>
+    <Email>janedoe@yahoo.com</Email>
+    <Company>Yahoo Inc</Company>
+    <Context>
+      <ContextId>00540000002efozAAA</ContextId>
+      <Fields>
+		<OtherStreet>150 Chestnut Street</OtherStreet>
+		<OtherCity>Toronto</OtherCity>
+		<OtherState>Ontario</OtherState>
+        <OtherPostalCode>L4B 1Y3</OtherPostalCode>
+      </Fields>
+    </Context>
+    <RecipientStatus>
+      <OriginalStatus>approve</OriginalStatus>
+      <Status>approve</Status>
+    </RecipientStatus>
+    <ContentStatus>
+      <Id>e9db519f-faba-4024-ad09-08ea3341b5ec</Id>
+      <Name>HTML_A.PDF</Name>
+      <Status>approve</Status>
+      <OriginalStatus>approve</OriginalStatus>
+    </ContentStatus>
+	<ContentStatus>
+      <Id>5ef2898f-18a1-4fa1-a510-791fc8ff33f2</Id>
+      <Name>RICH_A.DOCX</Name>
+      <Status>approve</Status>
+      <OriginalStatus>approve</OriginalStatus>
+    </ContentStatus>
+  </Recipients>
+  <Recipients>
+    <Id>7e0bc0c8-b914-4b1a-a8fc-4843bfff7a13</Id>
+    <Name>John Doe</Name>
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+    <Email>janedoe@hotmail.com</Email>
+    <Company>hotmail Inc</Company>
+    <Context>
+      <ContextId>0035f000003n5hzAAA</ContextId>
+      <Fields>
+		<OtherStreet>10111 Grant Rd</OtherStreet>
+		<OtherCity>Houston</OtherCity>
+		<OtherState>TX</OtherState>
+        <OtherPostalCode>77070</OtherPostalCode>
+      </Fields>
+    </Context>
+    <RecipientStatus>
+      <OriginalStatus>warn</OriginalStatus>
+      <Status>approve</Status>
+    </RecipientStatus>
+	<ContentStatus>
+      <Id>5ef2898f-18a1-4fa1-a510-791fc8ff33f2</Id>
+      <Name>RICH_A.DOCX</Name>
+      <Status>approve</Status>
+      <OriginalStatus>approve</OriginalStatus>
+    </ContentStatus>
+  </Recipients>
+</DeliveryApproval>
+</DeliveryOutput>
